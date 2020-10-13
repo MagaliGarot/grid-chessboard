@@ -2,14 +2,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:'blackrock blackknight balckbishop blackking blackqueen balckbishop blackknight blackrock' 
-                        'blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn' 
-                        'white black white black white black white black' 
-                        'white black white black white black white black' 
-                        'white black white black white black white black' 
-                        'white black white black white black white black' 
-                        'whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn'
-                        'whitekrock whiteknight whitebishop whiteking whitequeen whitebishop whiteknight whiterock' 
+    grid-template-areas: 
+                        'a8 b8 c8 d8 e8 f8 g8 h8'
+                        'a7 b7 c7 d7 e7 f7 g7 h7' 
+                        'a6 b6 c6 d6 e6 f6 g6 h6' 
+                        'a5 b5 c5 d5 e5 f5 g5 h5' 
+                        'a4 b4 c4 d4 e4 f4 g4 h4' 
+                        'a3 b3 c3 d3 e3 f3 g3 h3' 
+                        'a2 b2 c2 d2 e2 f2 g2 h2' 
+                        'a1 b1 c1 d1 e1 f1 g1 h1'  
                         ; 
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -20,146 +21,171 @@
 /*chess*/
 
 /*black première rangée, queen, king*/
-#blackrock {
-
+#blackrock1 {
+    grid-area: a8;
 }
 
-#blackknight {
-
+#blackknight1 {
+    grid-area: b8;
 }
 
-#balckbishop {
-
+#balckbishop1 {
+    grid-area: c8;
 }
 
 #blackking {
-
+    grid-area: d8;
 }
 
 #blackqueen {
+    grid-area: e8;
 
 }
 
-#balckbishop {
+#balckbishop2 {
+    grid-area: f8;
+}
+
+#blackknight2 {
+    grid-area: g8;
 
 }
 
-#blackknight {
-
-}
-
-#blackrock {
+#blackrock2 {
+    grid-area: h8;
 
 }
 
 /*Black pions - pawn*/
 
 #blackpawn1 {
+    grid-area: a7;
 
 }
 
 
 #blackpawn2 {
+    grid-area: b7;
 
 }
 
 
 #blackpawn3 {
-
+    grid-area: c7;
 }
 
 
 #blackpawn4 {
+    grid-area: d7;
 
 }
 
 #blackpawn5 {
+    grid-area: e7;
 
 }
 
 #blackpawn6 {
+    grid-area: f7;
 
 }
 
 #blackpawn7 {
+    grid-area: g7;
 
 }
 
 #blackpawn8 {
+    grid-area: h7;
 
 }
 
 /*white pions - pawn*/
 
 #whitepawn1 {
+    grid-area: a2;
 
 }
 
 
 #whitepawn2 {
+    grid-area: b2;
     
 }
 
 
 #whitepawn3 {
+    grid-area: c2;
     
 }
 
 
 #whitepawn4 {
+    grid-area: d2;
     
 }
 
 
 #whitepawn5 {
+    grid-area: e2;
     
 }
 
 
 #whitepawn6 {
+    grid-area: f2;
     
 }
 
 
 #whitepawn7 {
+    grid-area: g2;
     
 }
 
 
 #whitepawn8 {
+    grid-area: h2;
     
 }
 
 /*white dernière rangée, queen, king*/
 
 #whitekrock {
+    grid-area: a1;
 
 }
 
 #whiteknight {
+    grid-area: b1;
 
 }
 
 #whitebishop {
+    grid-area: c1;
 
 }
 
 #whiteking {
+    grid-area: d1;
 
 }
 
 #whitequeen {
+    grid-area: e1;
 
 }
 
 #whitebishop {
+    grid-area: f1;
 
 }
 
 #whiteknight {
+    grid-area: g1;
 
 }
 
 #whiterock {
-
+    grid-area: h1;
 }
