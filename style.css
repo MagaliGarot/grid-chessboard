@@ -1,4 +1,8 @@
 .grid {
+    width: 300px;
+    height: 300px;
+    margin-right: auto ;
+    margin-left: auto ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -12,8 +16,6 @@
                         'a2 b2 c2 d2 e2 f2 g2 h2' 
                         'a1 b1 c1 d1 e1 f1 g1 h1'  
                         ; 
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     border-color: black;
     border-style: solid;
 }
@@ -151,17 +153,17 @@
 
 /*white dernière rangée, queen, king*/
 
-#whitekrock {
+#whiterock1 {
     grid-area: a1;
 
 }
 
-#whiteknight {
+#whiteknight1 {
     grid-area: b1;
 
 }
 
-#whitebishop {
+#whitebishop1 {
     grid-area: c1;
 
 }
@@ -176,16 +178,16 @@
 
 }
 
-#whitebishop {
+#whitebishop2 {
     grid-area: f1;
 
 }
 
-#whiteknight {
+#whiteknight2 {
     grid-area: g1;
 
 }
 
-#whiterock {
+#whiterock2 {
     grid-area: h1;
 }
