@@ -4,13 +4,162 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:'blackrock blackknight balckbishop blackking blackqueen balckbishop blackknight blackrock' 
                         'blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn' 
-                        'white gray white gray white gray white gray' 
-                        'white gray white gray white gray white gray' 
-                        'white gray white gray white gray white gray' 
-                        'white gray white gray white gray white gray' 
+                        'white black white black white black white black' 
+                        'white black white black white black white black' 
+                        'white black white black white black white black' 
+                        'white black white black white black white black' 
                         'whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn'
                         'whitekrock whiteknight whitebishop whiteking whitequeen whitebishop whiteknight whiterock' 
                         ; 
-    grid-column-gap: 20px;
+    grid-column-gap: 0px;
     grid-row-gap: 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+/*chess*/
+
+/*black première rangée, queen, king*/
+#blackrock {
+
+}
+
+#blackknight {
+
+}
+
+#balckbishop {
+
+}
+
+#blackking {
+
+}
+
+#blackqueen {
+
+}
+
+#balckbishop {
+
+}
+
+#blackknight {
+
+}
+
+#blackrock {
+
+}
+
+/*Black pions - pawn*/
+
+#blackpawn1 {
+
+}
+
+
+#blackpawn2 {
+
+}
+
+
+#blackpawn3 {
+
+}
+
+
+#blackpawn4 {
+
+}
+
+#blackpawn5 {
+
+}
+
+#blackpawn6 {
+
+}
+
+#blackpawn7 {
+
+}
+
+#blackpawn8 {
+
+}
+
+/*white pions - pawn*/
+
+#whitepawn1 {
+
+}
+
+
+#whitepawn2 {
+    
+}
+
+
+#whitepawn3 {
+    
+}
+
+
+#whitepawn4 {
+    
+}
+
+
+#whitepawn5 {
+    
+}
+
+
+#whitepawn6 {
+    
+}
+
+
+#whitepawn7 {
+    
+}
+
+
+#whitepawn8 {
+    
+}
+
+/*white dernière rangée, queen, king*/
+
+#whitekrock {
+
+}
+
+#whiteknight {
+
+}
+
+#whitebishop {
+
+}
+
+#whiteking {
+
+}
+
+#whitequeen {
+
+}
+
+#whitebishop {
+
+}
+
+#whiteknight {
+
+}
+
+#whiterock {
+
 }
