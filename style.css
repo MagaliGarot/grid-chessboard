@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:'blackrock blackknight balckbishop blackking blackqueen balckbishop blackknight blackrock' 
+                        'blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn blackpawn' 
+                        'white gray white gray white gray white gray' 
+                        'white gray white gray white gray white gray' 
+                        'white gray white gray white gray white gray' 
+                        'white gray white gray white gray white gray' 
+                        'whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn whitepawn'
+                        'whitekrock whiteknight whitebishop whiteking whitequeen whitebishop whiteknight whiterock' 
+                        ; 
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
