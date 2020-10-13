@@ -5,10 +5,12 @@
     font-size: 20px;
     font-weight: bold;
     color:#103e89;
+    /*flex*/
     display:flex;
     justify-content:space-between;
     width: 600px;
-    height: 1px;
+    height: 10px;
+    height: 10px;
     margin-right: auto ;
     margin-left: auto ;
 }
@@ -18,11 +20,13 @@
     font-size: 20px;
     font-weight: bold;
     color:#103e89;
-    margin-top: 130px;
+    margin-top: 135px;
+    /*flex*/
     display:flex;
     flex-direction: column;
     justify-content:space-between;
     height: 600px;
+    width: 10px;
   
 }
 
@@ -37,7 +41,7 @@
     text-align: center;
     width: 600px;
     height: 600px;
-    margin-top: -620px;
+    margin-top: -600px;
     margin-right: auto ;
     margin-left: auto ;
     display: grid;
